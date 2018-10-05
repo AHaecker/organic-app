@@ -1,0 +1,12 @@
+/* Full width hero */
+.jumbotron-fluid {
+    background: url("../../assets/cover-image-father-daughter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1.5rem solid var(--secondary);
+    margin-bottom: 3rem;
+}
+
+.col-md-5 {
+    padding: 5rem 0;
+}

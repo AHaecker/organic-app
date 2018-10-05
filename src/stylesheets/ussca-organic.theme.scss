@@ -1,0 +1,112 @@
+/* CSS Variables */
+:root {
+    --blue: #192c58 !important;
+    --red: #cf0a2C !important;
+    --white: #fff;
+    --gray: #9b9b9b !important;
+    --gray-dark: #343a40;
+    --primary: #192c58 !important;
+    --secondary: #cf0a2C !important;
+    --sans-serif: "museo-sans", Arial,Helvetica, sans-serif;
+    --serif: "museo-slab",serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--sans-serif);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--primary);
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--serif);
+    font-weight: 700;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+i {
+    font-family: "FontAwesome";
+    font-size: .75rem;
+    color: var(--primary);
+}
+
+hr {
+    background-color: var(--secondary);
+    max-width: 165px;
+    height: 4px;
+    border: none;
+    margin: 2rem auto;
+}
+
+
+/* Buttons */
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+        box-shadow: none;
+        border: 1px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--secondary)
+    }
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--primary)
+    }
+}
+
+.btn-lg {
+    padding: .5rem 3rem;
+}
+
+.btn-link {
+    color: var(--primary);
+    font-weight: 700;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: var(--secondary);
+        text-decoration: none;
+    }
+}
+
+/* Lists */
+ul, li {
+    list-style-type: none;
+}
+
+/* Fonts */
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-muted {
+    font-weight: 500;
+    font-family: var(--sans-serif);
+}
