@@ -1,36 +1,43 @@
 /* CSS Variables */
 :root {
-    --blue: #192c58 !important;
-    --red: #cf0a2C !important;
-    --white: #fff;
-    --gray: #9b9b9b !important;
-    --gray-dark: #343a40;
-    --primary: #192c58 !important;
-    --secondary: #cf0a2C !important;
-    --sans-serif: "museo-sans", Arial,Helvetica, sans-serif;
-    --serif: "museo-slab",serif;
+  --blue: #192c58 !important;
+  --red: #cf0a2c !important;
+  --white: #fff;
+  --gray: #9b9b9b !important;
+  --gray-dark: #343a40;
+  --primary: #192c58 !important;
+  --secondary: #cf0a2c !important;
+  --gold: #d8a832;
+  --platinum: #9b9b9b;
+  --elite: #192c58 !important;
+  --sans-serif: 'museo-sans', Arial, Helvetica, sans-serif;
+  --serif: 'museo-slab', serif;
 }
 
 body {
-    margin: 0;
-    font-family: var(--serif);
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.75;
-    color: var(--primary);
-    text-align: left;
-    background-color: #fff;
+  margin: 0;
+  font-family: var(--sans-serif);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--primary);
+  text-align: left;
+  background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--sans-serif);
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 i {
-    font-family: "FontAwesome";
-    font-size: .75rem;
-    color: var(--primary);
+  font-family: 'FontAwesome';
+  font-size: 0.75rem;
+  color: var(--primary);
 }
 
 /* hr {
@@ -41,74 +48,104 @@ i {
     margin: 2rem auto;
 } */
 
-
 /* Buttons */
 .btn,
 .btn:hover,
 .btn:active,
 .btn:focus {
-        box-shadow: none;
-        border: 1px solid transparent;
+  font-family: var(--sans-serif);
+  font-weight: 700;
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid transparent;
 }
 
 .btn-primary {
-    background-color: var(--primary);
+  background-color: var(--primary);
 
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: var(--secondary)
-    }
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--secondary);
+  }
 }
 
 .btn-secondary {
-    background-color: var(--secondary);
-    
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: var(--primary)
-    }
+  background-color: var(--secondary);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--primary);
+  }
+}
+
+.btn-gold {
+  background-color: var(--gold);
+  color: var(--white);
+  &:hover,
+  &:focus,
+  &:active {
+    filter: brightness(110%);
+  }
+}
+
+.btn-platinum {
+  background-color: var(--platinum);
+  color: var(--white);
+  &:hover,
+  &:focus,
+  &:active {
+    filter: brightness(110%);
+  }
+}
+
+.btn-elite {
+  background-color: var(--elite);
+  color: var(--white);
+  &:hover,
+  &:focus,
+  &:active {
+    filter: brightness(150%);
+  }
 }
 
 .btn-lg {
-    padding: .5rem 3rem;
+  padding: 0.5rem 3rem;
 }
 
 .btn-link {
-    color: var(--primary);
-    font-weight: 700;
+  color: var(--primary);
+  font-weight: 700;
 
-    &:hover,
-    &:active,
-    &:focus {
-        color: var(--secondary);
-        text-decoration: none;
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--secondary);
+    text-decoration: none;
+  }
 }
 
 /* Lists */
-ul, li {
-    list-style-type: none;
+ul,
+li {
+  list-style-type: none;
 }
 
 /* Fonts */
 .text-primary {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 .text-secondary {
-    color: var(--secondary) !important;
+  color: var(--secondary) !important;
 }
 
 .text-muted {
-    font-weight: 500;
+  font-weight: 500;
 }
-
 
 /* Cards */
 .card {
-    border: none;
-
-
+  border: none;
 }

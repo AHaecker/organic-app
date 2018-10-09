@@ -1,0 +1,41 @@
+.card-deck {
+  @media (max-width: 575.98px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.card-img-top {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card-body {
+  padding-top: 0.75rem;
+}
+
+.card-border {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.horizontal-line {
+  width: 6rem;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+
+  &--gold {
+    border-color: var(--gold);
+  }
+  &--platinum {
+    border-color: var(--platinum);
+  }
+}
+.btn-membership {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.monthly-cost {
+  font-size: 1.2rem;
+}
