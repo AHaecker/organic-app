@@ -32,6 +32,11 @@ i {
     color: var(--primary);
 }
 
+.container,
+.container-fluid {
+    margin: 4rem auto;
+}
+
 /* Buttons */
 .btn,
 .btn:hover,
