@@ -1,12 +1,30 @@
-/* Full width hero */
-.jumbotron-fluid {
-    background: url("../../assets/cover-image-father-daughter.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 1rem solid var(--secondary);
-    margin-bottom: 3rem;
+.fa-chevron-right {
+    font-size: large;
+    vertical-align: middle;
 }
 
-.col-md-5 {
-    padding: 5rem 0;
+/* Full width Container */
+.jumbotron-fluid {
+    margin-bottom: 3rem;
+    border-bottom: 1rem solid var(--secondary);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Full width hero */
+.hero {
+    background-image: url("../../assets/cover-image-father-daughter.png");
+
+    .col-5 {
+        padding: 5rem 0;
+    }
+}
+
+/* Full width testimonial */ 
+.testimonial {
+    background-image: url("../../assets/david-bg.png");
+
+    .col-6 {
+        padding: 5rem 0;
+    }
 }

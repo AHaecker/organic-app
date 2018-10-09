@@ -7,16 +7,15 @@
     --gray-dark: #343a40;
     --primary: #192c58 !important;
     --secondary: #cf0a2C !important;
-    --sans-serif: "museo-sans", Arial,Helvetica, sans-serif;
+    --sans-serif: "museo-sans",Arial,Helvetica,sans-serif;
     --serif: "museo-slab",serif;
 }
 
 body {
     margin: 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.75;
     color: var(--primary);
     text-align: left;
     background-color: #fff;
@@ -40,6 +39,7 @@ i {
 .btn:focus {
         box-shadow: none;
         border: 1px solid transparent;
+        font-family: var(--sans-serif);
 }
 
 .btn-primary {
@@ -100,6 +100,16 @@ ul, li {
 /* Cards */
 .card {
     border: none;
+}
 
+/* Misc */
+.bpg {
 
+    margin: 3rem auto;
+
+    hr {
+        border-bottom: 0.25rem solid var(--secondary);
+        margin: .25rem 0;
+        max-width: 32%;
+    }
 }
