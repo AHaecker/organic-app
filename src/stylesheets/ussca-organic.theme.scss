@@ -6,7 +6,9 @@
   --gray: #9b9b9b !important;
   --gray-dark: #343a40;
   --primary: #192c58 !important;
+  --primary-darken: #000c38;
   --secondary: #cf0a2c !important;
+  --secondary-darken: #af0000;
   --gold: #d8a832;
   --platinum: #9b9b9b;
   --elite: #192c58 !important;
@@ -42,7 +44,7 @@ i {
 
 .container,
 .container-fluid {
-    margin: 4rem auto;
+    margin: 1rem auto;
 }
 
 /* Buttons */
@@ -54,6 +56,7 @@ i {
     border: 1px solid transparent;
     font-family: var(--sans-serif);
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .btn-primary {
@@ -62,7 +65,7 @@ i {
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--secondary);
+    background-color: var(--primary-darken);
   }
 }
 
@@ -72,8 +75,18 @@ i {
   &:hover,
   &:focus,
   &:active {
-    background-color: var(--primary);
+    background-color: var(--secondary-darken);
   }
+}
+
+.btn-outline-light {
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #ffffff33;
+        color: var(--white)
+    }
 }
 
 .btn-gold {
@@ -141,6 +154,10 @@ li {
   font-weight: 500;
 }
 
+.blockquote {
+    font-size: 1.5rem;
+}
+
 /* Cards */
 .card {
     border: none;
@@ -148,7 +165,6 @@ li {
 
 /* Misc */
 .bpg {
-
     margin: 3rem auto;
 
     hr {

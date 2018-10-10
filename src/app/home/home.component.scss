@@ -5,7 +5,6 @@
 
 /* Full width Container */
 .jumbotron-fluid {
-    margin-bottom: 3rem;
     border-bottom: 1rem solid var(--secondary);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,23 +12,40 @@
 
 /* Full width hero */
 .hero {
-    background-image: url("../../assets/cover-image-father-daughter.png");
+    margin-bottom: 3rem;
+    background-image: linear-gradient(to right, rgb(167, 198, 193) 0%,  rgb(221, 232, 230) 100%);
+    
+    .col-md-6 {
+        padding: 2rem 0;
+    }
 
-    .col-5 {
-        padding: 5rem 0;
+    @media (min-width: 768px) {
+        background-image: url("../../assets/cover-image-father-daughter.png");
+    
+        .col-md-6 {
+            padding: 6rem 0;
+        }
     }
 }
 
 /* Full width testimonial */ 
 .testimonial {
+    margin-top: 3rem;
     background-image: url("../../assets/david-bg.png");
 
-    .blockquote {
-        font-size: 1.5rem;
+    @media (max-width: 767px) {
+        .container {
+            background-color: #000000a0;
+            min-width: 100%;
+        }
+        .col-md-6 {
+            padding: 2rem;
+        }
     }
 
-    .col-5 {
-        padding: 8rem 0;
+    @media (min-width: 768px) {
+        .col-md-6 {
+            padding: 6rem 0;
+        }
     }
-
 }
