@@ -60,23 +60,23 @@ i {
 }
 
 .btn-primary {
-  background-color: var(--primary);
+    background-color: var(--primary);
 
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--primary-darken);
-  }
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--primary-darken);
+    }
 }
 
 .btn-secondary {
-  background-color: var(--secondary);
+    background-color: var(--secondary);
 
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--secondary-darken);
-  }
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--secondary-darken);
+    }
 }
 
 .btn-outline-light {
@@ -90,33 +90,34 @@ i {
 }
 
 .btn-gold {
-  background-color: var(--gold);
-  color: var(--white);
-  &:hover,
-  &:focus,
-  &:active {
-    filter: brightness(110%);
-  }
+    background-color: var(--gold);
+    color: var(--white);
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(110%);
+    }
 }
 
 .btn-platinum {
-  background-color: var(--platinum);
-  color: var(--white);
-  &:hover,
-  &:focus,
-  &:active {
-    filter: brightness(110%);
-  }
+    background-color: var(--platinum);
+    color: var(--white);
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(110%);
+    }
 }
 
 .btn-elite {
   background-color: var(--elite);
   color: var(--white);
-  &:hover,
-  &:focus,
-  &:active {
-    filter: brightness(150%);
-  }
+  
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(150%);
+    }
 }
 
 .btn-lg {
@@ -139,6 +140,14 @@ i {
 ul,
 li {
   list-style-type: none;
+}
+
+.link-primary {
+        &:before{
+        content: '\25aa';
+        color: var(--secondary);
+        font-size: large;
+    }
 }
 
 /* Fonts */
