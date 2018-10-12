@@ -1,5 +1,5 @@
 .card-deck {
-  @media (max-width: 575.98px) {
+  @media (max-width: 575px) {
     flex-direction: column-reverse;
   }
 }
@@ -11,10 +11,29 @@
 
 .card-body {
   padding-top: 0.75rem;
+  flex: none;
 }
 
+// Hack to override border-bottom: 0 on cards in accordion
+.accordion .card:first-of-type {
+  border-bottom: 1px solid;
+}
+
+.accordion .card:not(:first-of-type):not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+//end
+
 .card-border {
-  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border: 1px solid;
+  border-radius: 0;
+
+  &--gold {
+    border-color: var(--gold) !important;
+  }
+  &--platinum {
+    border-color: var(--platinum) !important;
+  }
 }
 
 .horizontal-line {
@@ -30,6 +49,7 @@
     border-color: var(--platinum);
   }
 }
+
 .btn-membership {
   width: 80%;
   margin-left: auto;
@@ -38,4 +58,21 @@
 
 .monthly-cost {
   font-size: 1.2rem;
+}
+
+.fa-check {
+  color: #85bb65;
+}
+
+.fa-ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.flex-none {
+  flex: none;
 }
