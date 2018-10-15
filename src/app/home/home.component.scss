@@ -52,9 +52,17 @@
 /* Full width community */
 .community {
     margin-bottom: 3rem;
-    background: linear-gradient(to right, #B5CFCA 0%, rgb(221, 232, 230) 100%);
+    background: linear-gradient(to right, #dde8e6 0%, #bfcfca 100%);
+    
+    h3 {
+        font-size: 1.5rem;
 
-    .d-inline-flex{
+        @media (min-width: 768px) {
+            font-size: 1.75rem;
+        }
+    }
+
+    .d-md-inline-flex{
         justify-content: center;
     }
 
