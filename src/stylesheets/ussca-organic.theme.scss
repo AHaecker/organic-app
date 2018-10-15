@@ -140,14 +140,11 @@ i {
 ul,
 li {
   list-style-type: none;
+  line-height: 1.5;
 }
 
-.link-primary {
-        &:before{
-        content: '\25aa';
-        color: var(--secondary);
-        font-size: large;
-    }
+.fa-square-full {
+    color: var(--secondary);
 }
 
 /* Fonts */
@@ -175,10 +172,14 @@ li {
 /* Misc */
 .bpg {
     margin: 3rem auto;
+}
 
-    hr {
-        border-bottom: 0.25rem solid var(--secondary);
-        margin: .25rem 0;
-        max-width: 32%;
-    }
+.bg-gradient{
+    background-image: linear-gradient(to right, #B5CFCA 0%,  rgb(221, 232, 230) 100%);
+}
+
+hr.hr-secondary {
+    border-bottom: 0.25rem solid var(--secondary);
+    margin: .25rem 0;
+    max-width: 32%;
 }
