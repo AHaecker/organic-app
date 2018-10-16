@@ -29,7 +29,7 @@
 
 /* Full width testimonial */ 
 .testimonial {
-    margin-top: 3rem;
+    margin: 5rem 0 3rem;
     background-image: url("../../assets/david-bg.png");
 
     @media (max-width: 767px) {
@@ -51,7 +51,7 @@
 
 /* Full width community */
 .community {
-    margin-bottom: 3rem;
+    margin: 5rem 0 3rem;
     background: linear-gradient(to right, #a7c6c1 0%, #dde8e6 100%);
     
     h3 {
@@ -70,4 +70,11 @@
         flex-direction: column;
         justify-content: center;
     }
+}
+
+
+.members .card-title {
+    text-align: center;
+    color: var(--secondary);
+    font-weight: 500;
 }
