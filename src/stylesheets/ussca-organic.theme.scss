@@ -27,13 +27,18 @@ body {
   background-color: #fff;
 }
 
-h1,
+h1 {
+  font-weight: 700;
+  font-family: var(--serif);
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-weight: 700;
+  font-family: var(--sans-serif);
 }
 
 i {
@@ -56,7 +61,7 @@ strong {
 
 .container,
 .container-fluid {
-    margin: 2rem auto;
+    margin: 3rem auto 2rem;
 }
 
 /* Buttons */
@@ -68,7 +73,6 @@ strong {
     border: 1px solid transparent;
     font-family: var(--sans-serif);
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .btn-primary {
