@@ -27,8 +27,7 @@
             "scripts": [
                 "node_modules/jquery/dist/jquery.min.js",
                 "node_modules/bootstrap/dist/js/bootstrap.min.js",
-                "src/js/top-posts.js",
-                "src/js/jquery.min.js"
+                "src/js/top-posts.js"
             ]
           },
           "configurations": {
@@ -83,8 +82,7 @@
             "scripts": [
                 "node_modules/jquery/dist/jquery.min.js",
                 "node_modules/bootstrap/dist/js/bootstrap.min.js",
-                "src/js/top-posts.js",
-                "src/js/jquery.min.js"
+                "src/js/top-posts.js"
             ],
             "assets": ["src/favicon.ico", "src/assets"]
           }
