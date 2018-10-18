@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 4.5rem;
+}
+
 img {
   max-width: 48px;
 }
@@ -5,4 +9,5 @@ img {
 nav {
     background-color: var(--nav-background);
     border-bottom: 1px solid #d9d9d9;
+    height: 4.5rem;
 }
