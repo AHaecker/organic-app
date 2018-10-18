@@ -1,9 +1,15 @@
+header {
+    margin-bottom: 4.5rem;
+}
+
 img {
-  max-width: 54px;
+  max-width: 48px;
 }
 
 nav {
-  background-color: var(--white);
+    background-color: var(--nav-background);
+    border-bottom: 1px solid #d9d9d9;
+    height: 4.5rem;
 }
 
 .footer-container {

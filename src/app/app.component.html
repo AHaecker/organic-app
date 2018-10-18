@@ -1,35 +1,33 @@
 <header>
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" routerLink="/home">
-      <img src="../assets/uscca-logo.png">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="btn btn-link" routerLink="/membership">Membership</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-link" href="#">Resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-link" href="#">Training</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <span class="text-secondary font-weight-bold px-3">
-        Call Us 24/7 at 800-674-9779
-      </span>
-      <button class="btn btn-primary" type="button">Join USCCA Now</button>
-      <button class="btn btn-link" type="button" href="#">My Account</button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" routerLink="/home">
+            <img src="../assets/uscca-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="btn btn-link" routerLink="/membership">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-link" href="https://www.usconcealedcarry.com/resources/">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-link" href="https://www.usconcealedcarry.com/training/">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-link" href="https://www.usconcealedcarry.com/contact/">Contact</a>
+                </li>
+            </ul>
+            <p class="text-secondary text-center font-weight-bolder px-3 mb-0">
+                Call Us 24/7:<br>
+                <a class="btn btn-link text-secondary pt-0" href="tel:800-674-9779">800-674-9779</a>
+            </p>
+            <button class="btn btn-link" type="button" href="https://www.usconcealedcarry.com/login/">My Account</button>
+        </div>
+    </nav>
 </header>
 <router-outlet></router-outlet>
 
