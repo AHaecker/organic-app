@@ -5,10 +5,9 @@ import { HomeComponent } from './home/home.component';
 import { MembershipComponent } from './membership/membership.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  {
-    path: 'home',
-    component: HomeComponent
+  {  
+    path: '', 
+    component: HomeComponent 
   },
   {
     path: 'membership',
