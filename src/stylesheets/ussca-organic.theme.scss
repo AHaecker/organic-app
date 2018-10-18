@@ -52,20 +52,20 @@ i {
 }
 
 small {
-  font-size: 80%;
+    font-size: 80%;
 
-  @media (max-width: 767px) {
-    font-size: 70%;
-  }
+    @media (max-width: 767px) {
+        font-size: 70%;
+    }
 }
 
 strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .container,
 .container-fluid {
-  margin: 3rem auto 2rem;
+    margin: 3rem auto 2rem;
 }
 
 /* Buttons */
@@ -73,70 +73,72 @@ strong {
 .btn:hover,
 .btn:active,
 .btn:focus {
-  box-shadow: none;
-  border: 1px solid transparent;
-  font-family: var(--sans-serif);
-  font-weight: 700;
+    box-shadow: none;
+    border: 1px solid transparent;
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    border-radius: 0;
 }
 
 .btn-primary {
-  background-color: var(--primary);
+    background-color: var(--primary);
 
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--primary-darken);
-  }
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--primary-darken);
+    }
 }
 
 .btn-secondary {
-  background-color: var(--secondary);
+    background-color: var(--secondary);
 
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--secondary-darken);
-  }
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--secondary-darken);
+    }
 }
 
 .btn-outline-light {
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: #ffffff33;
-    color: var(--white);
-  }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #ffffff33;
+        color: var(--white)
+    }
 }
 
 .btn-gold {
-  background-color: var(--gold);
-  color: var(--white);
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--gold-darken);
-  }
+    background-color: var(--gold);
+    color: var(--white);
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(110%);
+    }
 }
 
 .btn-platinum {
-  background-color: var(--platinum);
-  color: var(--white);
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--platinum-darken);
-  }
+    background-color: var(--platinum);
+    color: var(--white);
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(110%);
+    }
 }
 
 .btn-elite {
   background-color: var(--elite);
   color: var(--white);
-
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: var(--elite-darken);
-  }
+  
+    &:hover,
+    &:focus,
+    &:active {
+        filter: brightness(150%);
+    }
 }
 
 .btn-lg {
@@ -163,12 +165,12 @@ li {
 }
 
 .fa-square-full {
-  color: var(--secondary);
+    color: var(--secondary);
 }
 
 /* Fonts */
 .font-weight-bolder {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .text-primary {
@@ -184,39 +186,39 @@ li {
 }
 
 .blockquote {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /* Cards */
 .card {
-  border: none;
+    border: none;
 }
 
 /* Misc */
 .bpg {
-  margin: 5rem auto;
+    margin: 5rem auto;
 
-  .d-inline-flex {
-    flex-direction: column;
-    align-items: flex-end;
+    .d-inline-flex {
+        flex-direction: column;
+        align-items: flex-end;
 
-    @media (max-width: 992px) {
-      align-items: center;
+        @media (max-width: 992px) {
+            align-items: center;
+        }
     }
-  }
 }
 
-.bg-gradient {
-  background-image: linear-gradient(to right, #a7c6c1 0%, #dde8e6 100%);
+.bg-gradient{
+    background-image: linear-gradient(to right, #a7c6c1 0%, #dde8e6 100%);
 }
 
 hr.hr-secondary {
-  border-bottom: 0.25rem solid var(--secondary);
-  margin: 0.25rem 0;
-  max-width: 6rem;
+    border-bottom: 0.25rem solid var(--secondary);
+    margin: .25rem 0;
+    max-width: 6rem;
 }
 
 .card-icon {
-  align-self: center;
-  height: 4rem;
+    align-self: center;
+    height: 4rem;
 }
