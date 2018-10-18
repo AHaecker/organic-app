@@ -11,7 +11,7 @@
   --secondary: #cf0a2c !important;
   --secondary-darken: #af0000;
   --gold: #d8a832;
-  --gold-darken: #ad851f;
+  --gold-darken: #c99923;
   --platinum: #9b9b9b;
   --platinum-darken: #6e6e6e;
   --elite: #192c58;
@@ -68,6 +68,12 @@ strong {
     margin: 3rem auto 2rem;
 }
 
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
 /* Buttons */
 .btn,
 .btn:hover,
@@ -113,20 +119,22 @@ strong {
 .btn-gold {
     background-color: var(--gold);
     color: var(--white);
+
     &:hover,
     &:focus,
     &:active {
-        filter: brightness(110%);
+        background-color: var(--gold-darken);
     }
 }
 
 .btn-platinum {
     background-color: var(--platinum);
     color: var(--white);
+
     &:hover,
     &:focus,
     &:active {
-        filter: brightness(110%);
+        background-color: var(--platinum-darken);
     }
 }
 
@@ -137,7 +145,7 @@ strong {
     &:hover,
     &:focus,
     &:active {
-        filter: brightness(150%);
+        background-color: var(--elite-darken);
     }
 }
 
