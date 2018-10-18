@@ -52,3 +52,12 @@ li {
   line-height: 1.25;
   margin-bottom: 1rem;
 }
+.member-highlight {
+  height: 2rem;
+  line-height: 0.5rem;
+  &--platinum {
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 700;
+  }
+}

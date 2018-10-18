@@ -11,3 +11,20 @@ nav {
     border-bottom: 1px solid #d9d9d9;
     height: 4.5rem;
 }
+
+.footer-container {
+  background-color: var(--nav-background);
+  border-top: 1px solid #d9d9d9;
+}
+
+.footer-ul {
+  font-size: 0.75rem;
+}
+
+.footer-ul a {
+  color: #43a8e5;
+}
+
+.footer-logo {
+  max-width: 7rem;
+}
