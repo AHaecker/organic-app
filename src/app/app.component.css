@@ -3,5 +3,22 @@ img {
 }
 
 nav {
-    background-color: var(--white);
+  background-color: var(--white);
+}
+
+.footer-container {
+  background-color: #fafafa;
+  border-top: 1px solid rgba(231, 231, 231, 0.5);
+}
+
+.footer-ul {
+  font-size: 0.75rem;
+}
+
+.footer-ul a {
+  color: #43a8e5;
+}
+
+.footer-logo {
+  max-width: 7rem;
 }
