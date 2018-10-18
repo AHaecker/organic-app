@@ -13,6 +13,7 @@
 .hero {
     margin-bottom: 3rem;
     background-image: linear-gradient(to right, rgb(167, 198, 193) 0%,  rgb(221, 232, 230) 100%);
+    border-bottom: 1rem solid var(--secondary);
     
     .col-md-6 {
         padding: 2rem 0;
@@ -91,6 +92,10 @@
             margin-bottom: .25rem;
         }
     }
+}
+
+.blog-posts .card-img-top {
+    border-bottom: .25rem solid var(--secondary);
 }
 
 .members .card-title {
