@@ -3,6 +3,7 @@
   --blue: #192c58 !important;
   --red: #cf0a2c !important;
   --white: #fff;
+  --nav-background: #fafafa;
   --gray: #9b9b9b !important;
   --gray-dark: #343a40;
   --primary: #192c58 !important;
@@ -212,7 +213,7 @@ li {
 hr.hr-secondary {
   border-bottom: 0.25rem solid var(--secondary);
   margin: 0.25rem 0;
-  max-width: 32%;
+  max-width: 6rem;
 }
 
 .card-icon {
